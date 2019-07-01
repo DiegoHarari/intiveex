@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Football Player Search</title>
+</head>
+
+<body>
+
+  <form id="form">
+    <div class="form-group">
+      <input placeholder="name" id="sel1" type="text" class="form-control player select" />
+      <input placeholder="position" id="sel2" type="text" class="form-control player select" />
+      <input placeholder="age" id="sel3" type="text" class="form-control player select" required />
+    </div>
+  </form>
+
+  <button id="search-btn" class="btn btn-success">Test</button>
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Player</th>
+        <th scope="col">Position</th>
+        <th scope="col">Team</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr id='render'>
+
+      </tr>
+    </tbody>
+  </table>
+  <script src='app.js'></script>
+</body>
+
+
+
+
+</html>
